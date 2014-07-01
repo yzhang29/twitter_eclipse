@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codepath.apps.simpletwitter.HomeTimelineActivity" >
+    <item
+        android:id="@+id/miTweet"
+        android:showAsAction="ifRoom"
+        android:title="Tweet"
+        android:onClick="postTweet">
+    </item>
+</menu>
